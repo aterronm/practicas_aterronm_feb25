@@ -1,0 +1,42 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"  # Fuente de las gemas
+
+# gem "rails"  # Comentado, puedes descomentar si necesitas Rails
+
+
+gem 'glimmer'
+gem 'glimmer-dsl-libui'  # Gema Glimmer para libui
+gem 'glimmer-dsl-css'
+
+
+gem 'perfect-shape', '~> 1.0.8' #, path: '../glimmer'
+gem 'super_module', '~> 1.4.1'
+gem 'puts_debuggerer', '>= 1.0.1', '< 2.0.0', require: false
+
+# 3rd party gems (flexible versions to support other user gems that may share dependencies)
+gem 'jeweler', '>= 2.3.9', '< 3.0.0'
+gem 'logging', '>= 2.3.0', '< 3.0.0'
+gem 'os', '>= 1.0.0', '< 2.0.0'
+gem 'color', '~> 1.8'
+gem 'libui', '0.1.2'
+gem 'chunky_png', '~> 1.4.0'
+gem 'equalizer', '0.0.11'
+gem 'rouge', '>= 3.26.0', '< 4.0.0'
+gem 'text-table', '>= 1.2.4', '< 2.0.0'
+
+gem 'pg', '~> 1.5', '>= 1.5.9'  # Gema para PostgreSQL
+gem 'sequel', '~> 5.88'  # Gema para ORM Sequel
+gem 'yaml', '~> 0.4.0'
+
+gem 'array_include_methods', '>= 1.4.0', '< 1.6.0'
+gem 'facets', '>= 3.1.0', '< 4.0.0', require: false
+
+gem 'rspec-mocks', '~> 3.5.0'  # Gema para mocks en RSpec
+gem 'rspec', '~> 3.5.0'  # Gema para pruebas con RSpec
+gem 'rake', '>= 10.1.0', '< 14.0.0'  # Gema para tareas de automatización
+gem 'rdoc', '>= 6.2.1', '< 7.0.0'  # Gema para generar documentación
+gem 'coveralls', require: false  # Gema para cobertura de código
+gem 'simplecov', '~> 0.16.1', require: nil  # Gema para cobertura de código
+gem 'simplecov-lcov', '~> 0.7.0', require: nil  # Gema para generar reportes LCOV
+gem 'rake-tui', '> 0'  # Gema para interfaz de usuario en Rake

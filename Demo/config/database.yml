@@ -1,0 +1,23 @@
+# Configuración para el entorno de desarrollo
+development:
+  adapter: postgres
+  host: localhost
+  database: postgres
+  user: postgres
+  password: aterronm
+
+# Configuración para el entorno de pruebas
+test:
+  adapter: postgres
+  host: localhost
+  database: test_database_name
+  user: test_username
+  password: test_password
+
+# Configuración para el entorno de producción
+production:
+  adapter: postgres
+  host: localhost
+  database: test_database_name
+  user: test_username
+  password: test_password
